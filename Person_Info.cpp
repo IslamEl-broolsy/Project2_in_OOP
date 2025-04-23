@@ -89,10 +89,10 @@ public:
         cout << "\nBody: " << Body;
     }
 
-    void SendSMS(string Body)
+    void SendSMS(string TextMessage)
     {
         cout << "\n\nThe following message sent successfully to Phone: " << _Phone << endl;
-        cout << Body << endl;
+        cout << TextMessage << endl;
     }
 
     void Print()
